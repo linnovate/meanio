@@ -22,7 +22,7 @@ function processModules(modules) {
   angular.module('mean', packageModules);
 }
 
-jQuery.ajax('/_getModules', {
+jQuery.ajax('/api/_getModules', {
   dataType: 'json',
   async:false,
   success: processModules
