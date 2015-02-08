@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-npm install -g grunt grunt-cli
-npm install mongoose
-npm install -g
+sudo npm install -g grunt grunt-cli
+sudo npm install mongoose
+sudo npm install -g
 npm link
 grunt
