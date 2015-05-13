@@ -1,6 +1,6 @@
 {
   "name": "meanio",
-  "version": "0.7.5",
+  "version": "0.7.7",
   "description": "Extracted functionality for MEAN.io",
   "author": {
     "name": "linnovate"
@@ -9,7 +9,6 @@
   "license": "MIT",
   "main": "index",
   "scripts": {
-    "preinstall": "node ./scripts/preinstall",
     "postinstall": "cd ./lib/core_modules/server && npm install && cd ../../.."
   },
   "repository": {
