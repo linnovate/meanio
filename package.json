@@ -21,10 +21,6 @@
     "mean.io",
     "mean-cli"
   ],
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
-  },
   "dependencies": {
     "complex-list": "latest",
     "dependable-list": "latest",
