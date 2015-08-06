@@ -38,7 +38,8 @@
     "shelljs": "latest",
     "stacksight": "latest",
     "swig": "^1.3.2",
-    "uglify-js": "^2.4.14"
+    "uglify-js": "^2.4.14",
+    "async": "^1.4.0"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
