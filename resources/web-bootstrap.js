@@ -11,7 +11,7 @@ angular.element(document).ready(function() {
 });
 
 function processModules(modules) {
-  var packageModules = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router'],m,mn;
+  var packageModules = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'ui.select', 'ngSanitize'],m,mn;
   for (var index in modules) {
     m = modules[index];
     mn = 'mean.'+m.name;
