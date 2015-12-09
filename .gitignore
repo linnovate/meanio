@@ -32,4 +32,4 @@ lib/core_modules/server/node_modules
 *.swp
 
 /.idea
-/meanio.iml
+*.iml
