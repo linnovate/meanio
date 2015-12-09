@@ -30,3 +30,6 @@ lib/core_modules/server/node_modules
 
 # vim
 *.swp
+
+/.idea
+*.iml
