@@ -7,7 +7,7 @@
   },
   "contributors": "https://github.com/linnovate/meanio/graphs/contributors",
   "license": "MIT",
-  "main": "index",
+  "main": "lib/mean.js",
   "scripts": {
     "postinstall": "cd ./lib/core_modules/server && npm install && cd ../../.."
   },
