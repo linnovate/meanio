@@ -15,6 +15,9 @@
     "type": "git",
     "url": "https://github.com/linnovate/meanio.git"
   },
+  "scripts": {
+    "test": "gulp test"
+  },
   "keywords": [
     "mean",
     "meanio",
@@ -22,6 +25,7 @@
     "mean-cli"
   ],
   "dependencies": {
+    "assetmanager": "^1.2.2",
     "complex-list": "latest",
     "dependable-list": "latest",
     "express-jwt": "latest",
