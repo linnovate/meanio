@@ -9,6 +9,7 @@
   "license": "MIT",
   "main": "lib/mean.js",
   "scripts": {
+    "postinstall": "cd ./lib/core_modules/server && npm install && cd ../../..",
     "test": "gulp test"
   },
   "repository": {
