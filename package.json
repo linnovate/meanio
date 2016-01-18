@@ -26,6 +26,7 @@
     "assetmanager": "^1.2.2",
     "complex-list": "latest",
     "dependable-list": "latest",
+    "errorhandler": "latest",
     "express-jwt": "latest",
     "glob": "^4.0.3",
     "lazy-dependable": "latest",
