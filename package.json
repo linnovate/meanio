@@ -25,6 +25,7 @@
   "dependencies": {
     "assetmanager": "^1.2.2",
     "complex-list": "latest",
+    "config": "^1.19.0",
     "dependable-list": "latest",
     "express-jwt": "latest",
     "glob": "^4.0.3",
