@@ -18,7 +18,7 @@ By "committing" to this file, you ("you" or "You") hereby grant to Linnovate and
 
 You, the contributor agree to the following…
 
-1. That you are the sole owner of the Contributions and/or have sufficient rights in your Contribution to grant all rights you grant hereunder. 
+1. That you are the sole owner of the Contributions and/or have sufficient rights in your Contribution to grant all rights you grant hereunder.
 1. That the Contributions are your original works of authorship.
 1. That you created the Contributions and did not copy them from another source, and no other person claims, or has the right to claim, any right in any invention or patent related to the Contributions.
 1. That you are legally entitled to grant the above license. (If your employer has rights to intellectual property that you create, you represent that you have received permission to make the Contributions on behalf of that employer, or that your employer has waived such rights for the Contributions.)
@@ -35,7 +35,8 @@ If you become aware of any facts or circumstances related to the representation 
 * Taylor Thomas {thomastaylor312}
 * David Büttner {zloKOMAtic}
 * Andrija Petrovic {andrija-hers}
-* John Morris {spxis} 
+* John Morris {spxis}
 * Liran Tal {lirantal}
 * Farhad Adeli {Exlord}
 * Rommel Juarez {juarez9j}
+* David Dasenbrook {sometea}
