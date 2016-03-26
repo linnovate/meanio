@@ -25,6 +25,7 @@
     "complex-list": "latest",
     "dependable-list": "latest",
     "express-jwt": "latest",
+    "eventemitter2": "1.0.0",
     "glob": "^4.0.3",
     "lazy-dependable": "latest",
     "lodash": "^2.4.1",
