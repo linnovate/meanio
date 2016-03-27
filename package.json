@@ -35,6 +35,7 @@
     "request": "^2.47.0",
     "rtlcss": "^1.6.1",
     "shelljs": "latest",
+    "socketio-sticky-session": "^0.4.1",
     "stacksight": "latest",
     "swig": "^1.3.2",
     "uglify-js": "^2.4.14"
