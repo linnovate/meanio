@@ -44,6 +44,7 @@
     "uglify-js": "^2.4.14"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "gulp": "^3.9.0",
     "gulp-mocha": "^2.2.0",
     "mocha": "^1.18.2",
