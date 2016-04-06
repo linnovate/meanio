@@ -1,5 +1,7 @@
-'use strict';
+(function() {
+  'use strict';
 
-module.exports = {
-  _test: true //TAG for testing that this config is loaded
-};
+  module.exports = {
+    _test: true //TAG for testing that this config is loaded
+  };
+})();

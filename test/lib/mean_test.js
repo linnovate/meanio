@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  /* jshint expr:true */
 
   //Tests are not ready, bypassing the whole test
   return;
