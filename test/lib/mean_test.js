@@ -82,7 +82,7 @@
 
     });
 
-    it('properly weight js footer menus', function (done) {
+    xit('properly weight js footer menus', function (done) {
       mean.aggregated('js', 'footer', function (aggr) {
         aggr.should.be.empty;
         done();
