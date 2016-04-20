@@ -29,6 +29,7 @@
     "dependable-list": "latest",
     "errorhandler": "latest",
     "express-jwt": "latest",
+    "eventemitter2": "1.0.0",
     "glob": "^4.0.3",
     "lazy-dependable": "latest",
     "lodash": "latest",
@@ -39,7 +40,8 @@
     "querystring": "latest",
     "request": "^2.47.0",
     "rtlcss": "^1.6.1",
-    "shelljs": "latest",
+    "shelljs": "^0.6.0",
+    "socketio-sticky-session": "^0.4.1",
     "swig": "^1.3.2",
     "uglify-js": "^2.4.14"
   },
