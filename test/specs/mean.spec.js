@@ -7,7 +7,7 @@ require('mocha-sinon');
 var mean = require('../..');
 
 describe('MEAN IO Core', function () {
-  it('should extend Container', function() {
+  it('should extend Container', function () {
     var Container = require('lazy-dependable').Container;
     expect(mean instanceof Container).to.be.true;
   });
@@ -15,6 +15,13 @@ describe('MEAN IO Core', function () {
   describe('Config', function () {
     it('should load config based on NODE_ENV and NODE_CONFIG_DIR environmental vars', function () {
       expect(mean.getConfig()._test).to.be.true;
+    });
+  });
+
+  describe('Menus', function () {
+    var Menus = require('../../lib/core_modules/menu');
+    it('should be the same as exported', function () {
+      expect(mean.Menus === Menus).to.be.true;
     });
   });
 
@@ -29,13 +36,14 @@ describe('MEAN IO Core', function () {
       expect(console.error.calledOnce).to.be.true;
     });
 
-    it('should call getConfig', function() {
+    it('should call getConfig', function () {
       mean.loadConfig();
       expect(mean.constructor.getConfig.calledOnce).to.be.true;
     });
 
-    it('should return getConfig', function() {
+    it('should return getConfig', function () {
       expect(mean.loadConfig() === mean.constructor.getConfig());
-    })
+    });
   });
 });
+
