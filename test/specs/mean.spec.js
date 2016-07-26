@@ -46,4 +46,3 @@ describe('MEAN IO Core', function () {
     });
   });
 });
-
