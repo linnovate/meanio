@@ -5,7 +5,7 @@
   "author": {
     "name": "linnovate"
   },
-  "contributors": "https://github.com/linnovate/meanio/graphs/contributors",
+  "contributors": "https://github.com/ideawake/meanio/graphs/contributors",
   "license": "MIT",
   "main": "lib/mean.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/linnovate/meanio.git"
+    "url": "https://github.com/ideawake/meanio.git"
   },
   "keywords": [
     "mean",
