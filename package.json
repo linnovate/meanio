@@ -5,7 +5,7 @@
   "author": {
     "name": "linnovate"
   },
-  "contributors": "https://github.com/linnovate/meanio/graphs/contributors",
+  "contributors": "https://github.com/ideawake/meanio/graphs/contributors",
   "license": "MIT",
   "main": "lib/mean.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/linnovate/meanio.git"
+    "url": "https://github.com/ideawake/meanio.git"
   },
   "keywords": [
     "mean",
@@ -26,27 +26,26 @@
   ],
   "dependencies": {
     "assetmanager": "^1.2.2",
-    "complex-list": "latest",
-    "config": "^1.19.0",
-    "dependable-list": "latest",
-    "errorhandler": "latest",
-    "express-jwt": "latest",
-    "eventemitter2": "1.0.0",
+    "complex-list": "^0.1.4",
+    "config": "^1.21.0",
+    "errorhandler": "^1.4.3",
+    "express-jwt": "^5.0.0",
+    "eventemitter2": "2.1.3",
     "glob": "5.0.15",
-    "lazy-dependable": "latest",
-    "lodash": "latest",
-    "md5": "latest",
-    "morgan": "1.5.3",
-    "mongoose": "^4.3.6",
+    "lazy-dependable": "^0.2.0",
+    "lodash": "^4.13.0",
+    "md5": "^2.2.0",
+    "morgan": "1.7.0",
+    "mongoose": "^4.6.1",
     "q": "^1.0.1",
-    "querystring": "latest",
+    "querystring": "0.2.0",
     "request": "^2.47.0",
     "rtlcss": "^2.0.5",
     "shelljs": "^0.7.0",
     "socketio-sticky-session": "^0.4.1",
     "swig": "^1.3.2",
     "uglify-js": "^2.7.0",
-    "snyk": "1.16.0"
+    "snyk": "1.19.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
