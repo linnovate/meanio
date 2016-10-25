@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/linnovate/meanio.svg)](https://travis-ci.org/linnovate/meanio)
 [![NPM version](https://badge.fury.io/js/meanio.svg)](http://badge.fury.io/js/meanio)
 [![Dependency Status](https://david-dm.org/linnovate/meanio.svg)](https://david-dm.org/linnovate/meanio)
-
+[![Known Vulnerabilities](https://snyk.io/test/github/linnovate/meanio/badge.svg)](https://snyk.io/test/github/linnovate/meanio)
 # [![MEAN Logo](http://mean.io/system/assets/img/logos/meanlogo.png)](http://mean.io/) MEAN.IO
 
 
