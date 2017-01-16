@@ -12,7 +12,8 @@
     "postinstall": "cd ./lib/core_modules/server && npm install && cd ../../..",
     "test": "gulp test",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "jsdoc": "jsdoc -c jsdoc.conf.json -d docs -r"
   },
   "repository": {
     "type": "git",
@@ -52,6 +53,7 @@
     "chai": "^3.5.0",
     "gulp": "^3.9.0",
     "gulp-mocha": "^2.2.0",
+    "jsdoc": "^3.4.2",
     "mocha": "^1.18.2",
     "mocha-sinon": "^1.1.5",
     "should": "^3.2.0",
