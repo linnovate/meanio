@@ -25,6 +25,8 @@ You, the contributor agree to the following…
 1. Finally, it means that you have not entered into any agreements that would prevent you from granting the rights provided in this Agreement. You understand that the decision to include the Contribution in any product or source repository is entirely that of Linnovate and this agreement does not guarantee that the Contributions will be included in any product, technology or services.
 
 If you become aware of any facts or circumstances related to the representation above that would make these representations inaccurate or untrue, you agree to notify Linnovate promptly with any details.
+      
+      Utkarsh Shukla(Manu-shukla)-I agree
 
 
 ## Contributor confirmation list
