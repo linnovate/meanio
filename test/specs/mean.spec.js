@@ -24,4 +24,25 @@ describe('MEAN IO Core', function () {
       expect(mean.Menus === Menus).to.be.true;
     });
   });
+
+  describe('loadConfig', function () {
+    beforeEach(function () {
+      this.sinon.stub(console, 'error');
+      this.sinon.spy(mean.constructor, 'getConfig');
+    });
+
+    it('should console.error notice about deprecated loadConfig', function () {
+      mean.loadConfig();
+      expect(console.error.calledOnce).to.be.true;
+    });
+
+    it('should call getConfig', function () {
+      mean.loadConfig();
+      expect(mean.constructor.getConfig.calledOnce).to.be.true;
+    });
+
+    it('should return getConfig', function () {
+      expect(mean.loadConfig() === mean.constructor.getConfig());
+    });
+  });
 });
