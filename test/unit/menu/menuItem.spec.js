@@ -3,7 +3,7 @@
 var chai = require('chai'),
   expect = chai.expect;
 
-var MenuItem = require('../../lib/core_modules/menu/MenuItem.js');
+var MenuItem = require('../../../lib/core_modules/menu/MenuItem.js');
 
 describe('MenuItem', function () {
   it('should have functions', function () {
