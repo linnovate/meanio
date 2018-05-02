@@ -1,8 +1,7 @@
 'use strict';
-
 /* global jQuery:true */
 
-angular.element(document).ready(function () {
+angular.element(document).ready(function() {
   //Fixing facebook bug with redirect
   if (window.location.hash === '#_=_') window.location.hash = '#!';
 
@@ -12,11 +11,10 @@ angular.element(document).ready(function () {
 });
 
 function processModules(modules) {
-  var packageModules = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'ui.select', 'ngSanitize'],
-    m, mn;
+  var packageModules = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'ui.select', 'ngSanitize'],m,mn;
   for (var index in modules) {
     m = modules[index];
-    mn = 'mean.' + m.name;
+    mn = 'mean.'+m.name;
     angular.module(mn, m.angularDependencies || []);
     packageModules.push(mn);
   }
@@ -26,6 +24,7 @@ function processModules(modules) {
 
 jQuery.ajax('/_getModules', {
   dataType: 'json',
-  async: false,
+  async:false,
   success: processModules
 });
+

@@ -3,7 +3,7 @@
 var chai = require('chai'),
   expect = chai.expect;
 
-var Menus = require('../../../lib/core_modules/menu');
+var Menus = require('../../lib/core_modules/menu');
 
 describe('Menus', function () {
   describe('Functions', function() {
