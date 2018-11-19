@@ -36,7 +36,7 @@
     "lazy-dependable": "latest",
     "lodash": "latest",
     "md5": "latest",
-    "morgan": "1.5.3",
+    "morgan": "1.9.1",
     "mongoose": "^4.3.6",
     "q": "^1.0.1",
     "querystring": "latest",
