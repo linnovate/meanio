@@ -32,7 +32,7 @@
     "errorhandler": "latest",
     "express-jwt": "latest",
     "eventemitter2": "1.0.0",
-    "glob": "5.0.15",
+    "glob": "9.0.0",
     "lazy-dependable": "latest",
     "lodash": "latest",
     "md5": "latest",
